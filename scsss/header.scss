@@ -1,0 +1,25 @@
+.header{
+  height: 8vh;
+  background-color: rgba(71, 83, 143, 0.41);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000 !important;
+  ul{
+    padding: 10px;
+    //filter: drop-shadow(0 0 0.75rem rgba(211, 220, 219, 0.59));
+    padding-left: 0;
+    padding-right: 0;
+    width: 180px;
+    li{
+      padding-bottom: 5px;
+      width: 100%;
+      a{
+        color: white;
+      }
+      i{
+        font-weight: 300
+      }
+    }
+  }
+}

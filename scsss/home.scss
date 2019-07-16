@@ -1,0 +1,79 @@
+.home{
+  height: 100vh;
+  //background: linear-gradient(#53416b, #313a69);;
+  background-position-x: center;
+  padding-top: 10vh;
+  bottom: 0;
+  overflow-y: auto;
+  background-image:
+    linear-gradient(to bottom, rgba(6, 5, 6, 0.47), #313a69),
+    url('../assets/bckg.jpg');
+  background-size: cover;
+  .wraper{
+   // margin-top: 10vh;
+  }
+}
+
+.home-verse{
+  padding-top: 2vh;
+  h5{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    background-color: #0000008f;
+    border-radius: 20px;
+  }
+}
+//////////////modified in the components scss
+//.container{
+//  bottom: 10px;
+//  position: fixed;
+//}
+
+.justify-content-center{
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.card{
+  background: rgba(71, 95, 143, 0.63);
+  border-radius: 20px;
+  padding: 2px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-style: none;
+  filter: drop-shadow(0 0 0.75rem #475f8f);
+  .imgsize{
+    width: 30px;
+    height: auto;
+    padding: inherit;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid;
+    // filter: drop-shadow(0 0 0.75rem rgba(255, 0, 18, 0.59));
+
+    img{
+      opacity: 100%;
+    }
+  }
+  .desc{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Noto Serif CJK TC" !important;
+    font-weight: 800;
+    color: white;
+    //margin-bottom: 0;
+  }
+}
+
+.card:hover{
+  background-color: rgba(255, 255, 255, 0.71);
+}
+
+
